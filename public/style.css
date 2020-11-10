@@ -1,0 +1,65 @@
+/*Wanted a tiled background that was also kinda grey to go with the penguin theme, so I searched "tiled background" and found this nice image. Thank you Lorelle Teaches.*/
+body {
+    background-image: url(https://lorelleteaches.files.wordpress.com/2012/08/seamless-background-image-tile.jpg);
+}
+
+/*Chose a slightly odd shade of dark blue so that the header could stand out (but not too much) from the gray backdrop*/
+h1 {
+    color: rgb(54, 54, 167);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*Other than the footer, the about me page is the only page with a lot of text. I chose a dark shade of blue that stands out on the grey backdrop.*/
+.aboutMe {
+    color: rgb(20, 37, 20);
+    font-family: 'Kufam', cursive;
+}
+
+/*Here's where a lot of the CSS decisions and code had to go, since all three pages use this same container. I didn't want a really garish look on my website, so I chose the grey background, and the rest of the color decisions flowed from there. The positioning is relative and coded as such to make sure nothing overlaps weirdly.*/
+.container {
+    width: 65%;
+    position: relative;
+    top: 20px;
+    right: 10%;
+    background-color: rgb(172, 165, 165);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+/*For something so simple-looking, the footer has even more CSS code than the container! I chose to fix the position of the footer instead of place it on the bottom because I think it works better to remind people I "own" everything on that portfolio page, which is the only page you'll notice the position of the footer being fixed. As weith everything else, the footer is gray with a near-gray top border. There's code in here to stretch the footer the whole width of the page, align the text in the center of the footer, and padding to make the spacing look right.*/
+footer {
+    background-color: rgb(57, 65, 61);
+    color: gray;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    border-top-style: solid;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1vw;
+    padding: 1vw;
+}
+
+/*In the screenshots of the homework assets, you can see that the portfolio images are marked as 350x350. Therefore, I made sure all the images on that page were 350x350.*/
+.portImg {
+    width: 350px;
+    height: 350px;
+}
+
+/*As explained on the portfolio page, this class was added so that the spacing between the container and the footer looks right when scrolling all the way to the bottom.*/
+.bottom {
+    margin-bottom: 10%;
+}
+
+/*The image is floated left so that the text wraps around the image as in the screenshot.*/
+.aboutMeImg {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+header {
+    justify-content: center;
+    margin: auto;
+}
