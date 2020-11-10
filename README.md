@@ -1,70 +1,11 @@
-# Getting Started with Create React App
+Creating a website from scratch is a three-fold creative endeavor. As a longtime author, I have always appreciated the creative aspects of the literal writing content on a website. It was not until I coded my own portfolio for this project that I could appreciate the creative aspects of visual design and coding itself. For the majority of this project, I had kept all the visual design as simple as it could be. That meant a gross color clash of salmon, green, and yellow awaited me every time I refreshed my page and checked if the code worked. The very last thing I did after getting all the content and links working as intended was update the visual design. Even though the content was the same, just changing the whole thing to the current grey-blue-black color scheme made everything look so much more appealing. At least, to me. I'm sure everyone has their own opinions on this.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I said that it wasn't until this project that I could appreciate the creativity in coding. I've had a small bias against coders as people who are closer to robots than, well, people. But there is a sort of freedom in coding that's similar to playing with Legos or a musical instrument. It was quite satisfying to go from nothing to making a webpage that looked good. I started by using the Bootstrap Navbar code, and copy-pasted my customization of said Navbar into my three webpages. I then immediately linked the three pages together, committed, pushed, and made sure that the pages linked as intended when the website was live. That was a very satisfying feeling. From nothing to three linked pages.
 
-## Available Scripts
+Though the index.html file is my "About Me" page, I first fully coded the "Contact" page because it was the simplest in design. Just needed a basic understanding of how the Bootstrap Form component worked. I then moved to the Portfolio because, though it looked intimidating, it was easy to understand what to do in order to code it to look like how the screenshots looked. I started by just throwing placeholder photos in the place of the five pictures that the screenshots modeled. When I got the spacing as I wanted through column spacing on Bootstrap, I went back and added photos and links to actual portfolio pieces. I chose the stuff I'm most proud of authoring. And also my book. I coded my "About Me" page last because I overestimated how hard floating the image to the left was going to be. I also overestimated how hard it ended up being to write two paragraphs about myself once I started. Kinda like how I didn't expect this Readme to go on this long.
 
-In the project directory, you can run:
+As I said earlier, it wasn't until I finished all my content that I played around with the fonts and colors on the pages. Gray just looks good as a website color. And yet when I try wearing "cool grey shirts and pants" around in Seattle, people make fun of me! You can't win. I think I've rambled long enough. I was asked to provide a link to the live webpage,so, here you go:
 
-### `npm start`
+https://pungry.github.io/react-portfolio/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+There is a screenshot of the live website attached to this repository, as well. It takes up over 100x more space than the three pages of the website. Somehow.
