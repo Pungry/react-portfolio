@@ -1,47 +1,43 @@
 import React from "react";
 
+//links to github, linkedin, to projects all with descriptions; resubmit after
+//join seattle js hackers
+//email marilyn
+
 function About() {
   return (
     <div>
       <main className="container bottom">
-      <h1>Portfolio</h1>
+      <h1>Portfolio/Projects</h1>
       <hr/>
       <article className="row">
-        <div className="col-md-4 col-sm-12">
-          <a href="https://twitter.com/Pungry" target="_blank"><img className="portImg" src="https://www.holderscomponents.com/wp-content/uploads/2017/06/twitter-logo.png" alt="Twitter logo" /></a>
-        </div>
-        <div className="col-md-2"></div>
-        <br/>
-        <div className="col-md-4 col-sm-12">
-          <a href="https://www.linkedin.com/in/quint-turner-13782b62/" target="_blank"><img className="portImg" src="https://f0.pngfuel.com/png/329/312/in-logo-png-clip-art-thumbnail.png" alt="LinkedIn logo" /></a>
-        </div>
+          <a href="https://www.linkedin.com/in/quint-turner-13782b62/" target="_blank">&nbsp;&nbsp;&nbsp;LinkedIn Page</a>
       </article>
       <br/>
       <article className="row">
-        <div className="col-md-4 col-sm-12">
-          <a href="https://www.clippings.me/quintturner" target = "_blank"><img className="portImg" src="https://m.media-amazon.com/images/I/71npg1qupjL._AC_SS350_.jpg" alt="Notebook photo linking to writing portfolio" /></a>
-        </div>
-        <div className="col-md-2"></div>
-        <br/>
-        <div className="col-md-4 col-sm-12">
-          <a href="https://pungry.wordpress.com/" target = "_blank"><img className="portImg" src="https://media.wordpresstraining.com/wp-content/uploads/2016/08/21182017/wordpress-logo-350x350.png" alt="Wordpress logo" /></a>
-        </div>
+        <a href="https://github.com/Pungry" target="_blank">&nbsp;&nbsp;&nbsp;GitHub Portfolio</a>
       </article>
       <br/>
       <article className="row">
-        <div className="col-md-4 col-sm-12">
-          <a href = "https://www.amazon.com/Lineup-How-Teenage-Sports-Journalist-ebook/dp/B00FUSURVY" target = "_blank"><img className="portImg" src="https://m.media-amazon.com/images/I/51vNEj7RCqL.jpg" alt="Cover of Lineup: How to be a Teenage Sports Journalist" /></a>
-        </div>
-        <div className="col-md-2"></div>
-        <div className="col-md-4 col-sm-12">
-          <a href = "https://dan-gentile.github.io/gym-bro/" target = "_blank"><img className="portImg" src = "https://i.imgur.com/VkVKpOS.png" alt = "Logo of GymBro" /></a>
-        </div>
+      &nbsp;&nbsp;&nbsp;Link to WiSyRD, an app that replaces clunky character sheets for 5E D&D:<a href = "https://wisyrd.herokuapp.com/" target = "_blank">&nbsp;https://wisyrd.herokuapp.com/</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub Page: <a href= "https://github.com/wisyrd/WiSyRD" target = "_blank">&nbsp;https://github.com/wisyrd/WiSyRD</a>
       </article>
       <br/>
       <article className="row">
-        <div className="col-md-4 col-sm-12">
-          <a href = "https://ality-stats.herokuapp.com/"><img className="portImg" src="https://i.imgur.com/kYx5FS4.png" alt="Cover of Lineup: How to be a Teenage Sports Journalist" /></a>
-        </div>
+      &nbsp;&nbsp;&nbsp;Link to Dragalia Weapon Tracker, an app that tracks progress in Dragalia Lost:<a href = "https://dragalia-weapon-tracker.herokuapp.com/" target = "_blank">&nbsp;&nbsp;&nbsp;https://dragalia-weapon-tracker.herokuapp.com/</a>
+      &nbsp;&nbsp;&nbsp;GitHub Page: <a href= "https://github.com/Pungry/dragalia-weapon-tracker" target = "_blank">&nbsp;https://github.com/Pungry/dragalia-weapon-tracker</a>
+      </article>
+      <br/>
+      <article className="row">
+      &nbsp;&nbsp;&nbsp;Link to GymBro, an app that pairs users with a workout and playlist of songs:<a href = "https://dan-gentile.github.io/gym-bro/" target = "_blank">&nbsp;https://dan-gentile.github.io/gym-bro/</a>
+      &nbsp;&nbsp;&nbsp;
+      GitHub Page: <a href= "https://github.com/dan-gentile/gym-bro" target = "_blank">&nbsp;https://github.com/dan-gentile/gym-bro</a>
+      </article>
+      <br/>
+      <article className="row">
+      &nbsp;&nbsp;&nbsp;Link to Ality, an easy-to-use stat-crunching app:<a href = "https://ality-stats.herokuapp.com/">&nbsp;https://ality-stats.herokuapp.com/</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      GitHub Page: <a href= "https://github.com/natewinter/Ality" target = "_blank">&nbsp;https://github.com/natewinter/Ality</a>
       </article>
     </main>
     </div>
